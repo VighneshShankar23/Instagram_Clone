@@ -1,7 +1,6 @@
 # Instagram Clone made with ReactJS and Firebase
 
-### To make it run locally:
-
+### To make it run on your local device:
 1. Add a firebase.js file in src folder
 2. Import firebase from npm
 3. Add code similar to this:
@@ -19,11 +18,9 @@ const firebaseApp = firebase.initializeApp({
   appId: "your app Id",
   measurementId: "your measurement ID",
 });
-
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 const storage = firebase.storage();
-
 export { db, auth, storage };
 ```
 
